@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Twitch.tv Streamers - FCC</title>
+  <link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="twitch-title">
+    <a href="https://www.twitch.tv/" target="_blank">
+      <img class="twitch-logo" 
+        src="https://vignette.wikia.nocookie.net/swansong/images/2/26/Twitch_logo.svg" 
+        alt="twitch-logo">
+      <span class='twitch-text'>Twitch Streamers</span>
+    </a>
+  </div>
+
+  <div class="nav">
+    <span class="nav-item active">All</span>
+    <span class="nav-item">Online</span>
+    <span class="nav-item">Offline</span>
+  </div>
+
+  <div class="main">
+    <div class="all"></div>
+    <div class="online"></div>
+    <div class="offline"></div>
+  </div>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/axios/0.17.1/axios.js'></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
